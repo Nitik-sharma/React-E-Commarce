@@ -1,0 +1,22 @@
+@media only screen and (max-width: 700px) {
+  .one-page-container {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .one-page-image {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 1rem 1rem !important;
+    width: 100% !important;
+  }
+  .one-page-image img {
+    width: 100% !important;
+  }
+  .one-product-text {
+    padding: 1rem 1rem !important;
+  }
+}

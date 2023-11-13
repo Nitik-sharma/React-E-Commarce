@@ -1,0 +1,21 @@
+@media only screen and (max-width: 800px) and (min-width: 600px) {
+  .navbar-text div p {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media only screen and (max-width: 600px) and (min-width: 300px) {
+  .svg-text {
+    display: none;
+  }
+  .navbar-text div p {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-text div p {
+    font-size: 0.7rem !important;
+    font-weight: 600 !important;
+  }
+}

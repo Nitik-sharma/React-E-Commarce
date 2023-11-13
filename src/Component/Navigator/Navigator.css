@@ -1,0 +1,6 @@
+@media only screen and (max-width: 600px) {
+  .cloth-img {
+    width: 90% !important;
+    height: 300px;
+  }
+}

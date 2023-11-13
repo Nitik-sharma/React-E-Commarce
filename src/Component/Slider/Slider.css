@@ -1,0 +1,86 @@
+.slider-container {
+  position: relative;
+}
+
+.slider-text {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  right: 30%;
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+}
+
+.dot-ball {
+  width: 2%;
+  height: 2%;
+  position: absolute;
+  bottom: 3rem;
+  left: 40%;
+  right: 40%;
+}
+/* bg-green-300 rounded-full p-4 cursor-pointer */
+.dot-active {
+  width: 1%;
+  height: 1%;
+  background-color: red;
+  border-radius: 50%;
+  padding: 1rem;
+  cursor: pointer;
+}
+.dot-deactive {
+  width: 2%;
+  height: 2%;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1rem;
+  cursor: pointer;
+}
+.next-btn {
+  font-size: 2rem;
+  padding: 0.4rem 0.4rem;
+  border-radius: 50%;
+  color: #000;
+  background: #fff;
+  position: absolute;
+  top: 100%;
+  left: 0.1rem;
+}
+.prev-btn {
+  font-size: 2rem;
+  padding: 0.4rem 0.4rem;
+  border-radius: 50%;
+  color: #000;
+  background: #fff;
+  position: absolute;
+  top: 100%;
+  right: 0.1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .slider-text {
+    font-size: 1.3rem;
+  }
+  .prev-btn {
+    top: 78%;
+  }
+  .next-btn {
+    top: 78%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .slider-text {
+    top: 20%;
+  }
+  .prev-btn {
+    top: 58%;
+  }
+  .next-btn {
+    top: 58%;
+  }
+  .dot-ball {
+    left: 30%;
+    right: 50%;
+  }
+}

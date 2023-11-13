@@ -1,0 +1,8 @@
+@media only screen and (max-width: 450px) {
+  .card {
+    width: 80%;
+  }
+  .card-header {
+    font-size: 2rem;
+  }
+}

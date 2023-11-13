@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+  .card-container {
+    width: 80%;
+    font-size: x-small !important;
+  }
+  .heading {
+    font-size: x-large;
+  }
+}
